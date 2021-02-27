@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+
+  - "7"
+
+script:
+
+ - echo "Deploy!!"
+
+install:
+
+  - npm install -g firebase-tools
+
+after_success:
+
+  - firebase deploy --project lastreclacia --token 1//033sR7Vd87P6oCgYIARAAGAMSNwF-L9IrQ1ZpzUboyZJkQomgpa8SNQsk_SoY9Ej27k9ynbTlUlYO4nRgsz-Z7XuX-mpEtVEfS_s
